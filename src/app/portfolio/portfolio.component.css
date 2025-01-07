@@ -69,7 +69,28 @@
 }
 
 @media (max-width:768px) {
+    
     .overlay img {
         width: 400px;
+    }
+}
+/* مقاس الشاشات الصغيرة (أقل من 768px) */
+@media (max-width: 768px) {
+    .sec-portfolio {
+        height: 390vh;
+    }
+}
+
+/* مقاس الشاشات المتوسطة (من 769px لحد 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .sec-portfolio {
+        height: 150vh;
+    }
+}
+
+/* مقاس الشاشات الكبيرة (أكبر من 1024px) */
+@media (min-width: 1025px) {
+    .sec-portfolio {
+        height: 120vh;
     }
 }
