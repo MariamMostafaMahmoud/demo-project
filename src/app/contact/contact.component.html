@@ -1,0 +1,36 @@
+<section class="sec-contact">
+    <div class="container">
+        <div class="text-center pt-5">
+            <h2 class="title-contact">conatct section</h2>
+            <div class="d-flex justify-content-center mb-2 align-items-center">
+                <div class="line me-3"></div>
+                <i class="fa-solid fa-star"></i>
+                <div class="line ms-3"></div>
+            </div>
+        </div>
+        <div class="customContainer">
+            <form class="d-flex flex-column mt-5">
+                @if (name !='') {
+                <label for="user">userName:</label>
+                }
+                <input type="text" placeholder="userName" id="user" name="user" class="py-3" [(ngModel)]="name">
+                @if (age !='') {
+                <label for="age">userAge:</label>
+                }
+                <input type="text" placeholder="userAge" id="age" name="age" class="py-3" [(ngModel)]="age">
+                @if (email !='') {
+                <label for="email">userEmail:</label>
+                }
+                <input type="email" placeholder="userEmail" id="email" name="email" class="py-3" [(ngModel)]="email">
+                @if (password !='') {
+                <label for="">userPassword:</label>
+                }
+                <input type="text" placeholder="userPassword" id="password" name="password" class="py-3"
+                    [(ngModel)]="password">
+
+            </form>
+            <button class=" my-3">send messages</button>
+        </div>
+
+    </div>
+</section>

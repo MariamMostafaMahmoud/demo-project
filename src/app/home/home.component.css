@@ -1,0 +1,23 @@
+.sec-home {
+    background-color: var(--main-color);
+    background-size: cover;
+    height: 90vh;
+    padding-top: 10%;
+}
+
+.img-home {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+
+
+.content-home {
+    color: var(--text-color);
+}

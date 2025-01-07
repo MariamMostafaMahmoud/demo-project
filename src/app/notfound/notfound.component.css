@@ -1,0 +1,23 @@
+span {
+    background-image: url(../../../public/error.gif);
+    background-size: 100%;
+    display: inline-block;
+    height: 145px;
+    margin: 0 10px;
+    width: 145px;
+}
+
+h2 {
+    font-size: 180px;
+    line-height: 180px;
+    margin-bottom: 15px;
+    color: var(--Second-color);
+
+}
+
+h3 {
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.3;
+}

@@ -1,0 +1,11 @@
+.sec-about {
+    background-color: var(--main-color);
+    background-size: cover;
+    height: 80vh;
+    padding-top: 10%;
+}
+
+.contant-about {
+    color: white;
+    font-size: 16px;
+}

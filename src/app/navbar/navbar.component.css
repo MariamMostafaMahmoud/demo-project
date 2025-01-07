@@ -1,0 +1,33 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: var(--Second-color);
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    /* height: 100px; */
+}
+
+nav .navbar-brand {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+nav a {
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+nav .nav-link {
+    font-weight: 700;
+}
+
+.active {
+    background-color: var(--main-color);
+}
+
+/* 
+.navbar.scrolled {
+    height: 70px;
+
+} */
